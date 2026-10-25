@@ -1,6 +1,6 @@
 # edx-movie skills
 
-AI 影视创作技能包，每个子文件夹是一个标准 skill（文件夹名 = SKILL.md 里的 name）。
+AI 影视创作技能包，`skills/` 下每个子文件夹是一个标准 skill（文件夹名 = SKILL.md 里的 name）。
 
 | Skill | 用途 | 来源 |
 |---|---|---|
@@ -14,3 +14,14 @@ AI 影视创作技能包，每个子文件夹是一个标准 skill（文件夹�
 edx-movie-tygg-ai-film-studio 原始包不完整：SKILL.md 引用的 33 份参考文档只有 9 份，以下 24 份缺失，另缺 scripts/validate_previs_fast.py 与 scripts/validate_handoff.py。拿到完整原包后放进对应目录即可。
 
 commercial-architecture-blockout.md, contact-hand-ik.md, directing-story-and-editing.md, fast-validation.md, hyper3d-scene-assets.md, interaction-choreography.md, interactive-development.md, offline-handoff-check.md, performance-budget.md, previs-visual-contract.md, production-approval-gates.md, production-document-templates.md, project-documentation.md, reality-to-design-quality.md, reference-image-driven-assets.md, reference-prompt-template.md, reference-video-delivery.md, research-evidence-and-reality.md, research-sources.md, revision-and-handoff.md, scene-blockout-and-camera-motion.md, scene-contract.md, scene-semantic-detail-library.md, user-review-and-prompt-handoff.md
+
+## 安装
+
+```bash
+# 全部安装
+npx skills add edifierx666/edx-movie
+# 查看列表
+npx skills add edifierx666/edx-movie --list
+# 只装某一个
+npx skills add edifierx666/edx-movie --skill edx-movie-seedance-prompt-builder
+```
